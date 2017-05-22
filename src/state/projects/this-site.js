@@ -14,7 +14,7 @@ export default {
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/camerondubas/camerondubas.github.io'
+      url: 'https://github.com/camerondubas/cameron-dubas-portfolio-site'
     }
   ],
   homepage: true,

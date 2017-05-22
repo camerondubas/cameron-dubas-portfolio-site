@@ -1,0 +1,72 @@
+button, .c-button  {
+    background: transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.c-button--window__primary {
+  border: 1px solid;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  text-decoration: none;
+  font-style: normal;
+  font-size: .7rem;
+  display: inline-block;
+  transition: all .2s;
+}
+
+.c-button--window__primary:hover,
+.c-button--window__primary:focus {
+  background: #4D85FC;
+  color: white;
+  border-radius: 1px;
+  border: 1px solid #4D85FC;
+  box-shadow: 0 0 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-button--window__secondary {
+    font-size:.8rem;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 2rem;
+    transition: .2s all;
+}
+
+.c-button--window__secondary:hover, .c-button--window__secondary:focus {
+    box-shadow: 0 0 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: white;
+    color: #4D85FC;
+    border-radius: 1px;
+    border: 2px solid white;
+}
+
+.c-button--standard__primary {
+  display: block;
+  padding: .5rem 1rem ;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: background-color .3s, border .3s;
+}
+
+.c-button--standard__primary.is-active,
+.c-button--standard__primary.is-active:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.c-button--standard__primary:focus,
+.c-button--standard__primary:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.c-button--standard__primary.is-active:focus {
+  border: 2px solid #fff;
+}

@@ -1,0 +1,17 @@
+/* Container */
+
+.c-container__wrapper {
+    background-color: rgb(77, 133, 252);
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+    transition: background-color .5s;
+
+}
+.c-container {
+    width: calc(100% - 30px);
+    max-width: 1000px;
+    margin:75vh auto 0;
+    background: white;
+    border-radius: 2px;
+}

@@ -1,0 +1,70 @@
+/* Hero Section */
+.c-hero {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', "Arial Narrow", Arial, sans-serif;
+    color: #fff;
+    height: 80vh;
+    max-width: 560px;
+    padding: 30px;
+    margin: 0 auto;
+    display: table;
+    position: fixed;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.c-hero__container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.c-hero__title {
+    font-size: 3.33rem;
+    font-weight: 900;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+    text-rendering: geometricPrecision;
+}
+
+.c-hero__subtitle {
+    font-size: 2rem;
+    color: rgba(0,0,0,.35);
+}
+
+.c-hero__subtitle span {
+    display: block;
+}
+
+.c-hero__button {
+    border: 2px solid white;
+    color: white;
+    transition: .2s all;
+}
+
+.c-hero__button:hover, .c-hero__button:focus {
+    background: white;
+    color: #4D85FC;
+    border-radius: 1px;
+    border: 2px solid white;
+    outline: none;
+}
+
+
+
+@media (min-width: 640px) {
+    .c-hero {
+        width: 100%;
+    }
+    .c-hero__title {
+        font-size: 5rem;
+    }
+
+    .c-hero__subtitle {
+        font-size: 3rem;
+    }
+    .c-hero__subtitle span {
+        display: inline;
+    }
+}

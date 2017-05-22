@@ -1,0 +1,153 @@
+/* Project */
+
+.c-project {
+    padding: 1rem;
+    overflow: auto;
+}
+
+.c-project__content h2, .c-project__title {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    padding-top: 1rem;
+}
+
+.c-project__content h3, .c-project__subtitle {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.5rem;
+    margin-bottom:.5rem;
+    padding-top: 1rem;
+    color: rgba(0,0,0,0.7)
+}
+
+.c-project__content, .c-project__content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.c-project__content a {
+    text-decoration: underline;
+    font-style: italic;
+    outline: none;
+    transition: background .3s;
+}
+
+.c-project__content a:focus {
+    background: rgba(0,0,0,0.2);
+}
+
+.c-project__content strong {
+    font-weight: 500;
+}
+
+.c-project__content .c-button {
+    text-decoration: none;
+    font-style: normal;
+    width: 100%;
+}
+.c-project__image {
+    max-width: 100%;
+    max-height:350px;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 2px;
+}
+
+
+@media (min-width: 640px) {
+    .c-project {
+        padding: 2rem;
+    }
+    .c-project__image {
+        max-width: 70%;
+        max-height:350px;
+    }
+
+    .c-project__content .c-button {
+        width: inherit;
+    }
+}
+
+/* Project Overview */
+
+.c-project--overview {
+    padding: 1rem;
+}
+
+.c-project--overview:nth-of-type(2n) {
+    background: rgba(0,0,0,0.1);
+}
+.c-project--overview:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.c-project--overview__title {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.c-project--overview__image {
+    width: 100%;
+    border-radius: 2px;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.c-project--overview__content {
+    float: left;
+    width: 100%;
+}
+
+.c-project--overview__content a {
+    text-decoration: underline;
+    font-style: italic;
+    outline: none;
+    transition: background .3s;
+}
+
+.c-project--overview__content a:focus {
+    background: rgba(0,0,0,0.2);
+}
+
+.c-project--overview__subtitle {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1rem;
+    margin-bottom:3rem;
+    color: rgba(0,0,0,.5)
+}
+.c-project--links {
+    margin-top: 1rem;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.c-project--links .c-button {
+    width: 100%;
+    margin-right: 0;
+}
+
+@media (min-width: 640px) {
+    .c-project--overview {
+        padding: 2rem;
+    }
+    .c-project--overview__image {
+        width:30%;
+        margin-right: 1rem;
+    }
+    .c-project--overview__content {
+        width: calc(70% - 1rem);
+    }
+
+    .c-project--links {
+        clear: none;
+        width: auto
+    }
+    .c-project--links .c-button {
+        width: auto;
+        margin-right: 1rem;
+    }
+}

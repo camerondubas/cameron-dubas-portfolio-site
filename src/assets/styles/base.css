@@ -1,0 +1,69 @@
+@font-face{
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue'), url('../fonts/bebas.woff') format('woff');
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(77, 133, 252);
+    transition: background-color .5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Body Copy */
+p, li {
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* box-shadow */
+.c-container,
+.c-footer
+.c-about img {
+    box-shadow: 0 0 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-clear {
+    clear: both;
+}
+
+.c-about--image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+@media (min-width: 640px) {
+    .c-about--image {
+        max-width: 200px;
+        float: left;
+        margin: 0 1rem 1rem 0;
+
+    }
+}
+
+
+.js--bg-color__blue {
+    background-color: rgb(77, 133, 252);
+}
+
+.js--bg-color__red {
+    background-color: rgb(216, 71, 84);
+}
+
+.js--bg-color__green {
+    background-color: rgb(46, 189, 123);
+}

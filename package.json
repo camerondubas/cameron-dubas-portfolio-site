@@ -1,8 +1,8 @@
 {
-  "name": "hyper-app",
+  "name": "cameron-dubas-porfolio-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -d --watch",
@@ -11,8 +11,8 @@
     "push": "docker push camerondubas/camerondubas.com",
     "deploy": "npm run prod && npm run build && npm run push"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Cameron Duba <camerondubas@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",

@@ -5,12 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack -d --watch",
-    "prod": "webpack -p",
-    "build": "docker build -t \"camerondubas/camerondubas.com\" .",
-    "push": "docker push camerondubas/camerondubas.com"
+    "dev": "npm install && webpack --debug --devtool cheap-module-source-map --output-pathinfo --watch",
+    "prod": "webpack -p"
   },
-  "author": "Cameron Duba <camerondubas@gmail.com>",
+  "author": "Cameron Dubas <camerondubas@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",

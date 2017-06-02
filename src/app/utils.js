@@ -13,6 +13,8 @@ export const loadImagesInViewport = () => {
     }
   }
 
+
+
   if (IntersectionObserver) {
     const handleEntries = entries => {
       entries.forEach(entry => {

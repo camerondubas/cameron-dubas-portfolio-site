@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({template: __dirname + "/src/index.html"}),
-    new CleanWebpackPlugin(['dist'], {
+    new CleanWebpackPlugin(['dist/*.*'], {
       verbose: true,
       dry: false
     }),

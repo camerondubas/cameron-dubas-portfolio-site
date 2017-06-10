@@ -31,7 +31,10 @@ export default {
         <div class="c-hero__container">
           <h1 class="c-hero__title">Cameron Dubas</h1>
           <h2 class="c-hero__subtitle">Front-End Developer, <span>nice guy.</span></h2>
-          <a href="mailto:camerondubas@gmail.com" class="c-button c-button--window__secondary">Contact</a>
+          <p class="c-hero__text">
+          Let's chat,
+          <a href="mailto:camerondubas@gmail.com">camerondubas@gmail.com</a>
+          </p>
         </div>
       </section>
 

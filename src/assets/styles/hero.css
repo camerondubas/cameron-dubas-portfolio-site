@@ -37,6 +37,17 @@
     display: block;
 }
 
+.c-hero__text {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+}
+
+.c-hero__text a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .c-hero__button {
     border: 2px solid white;
     color: white;

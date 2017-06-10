@@ -8,6 +8,7 @@ export default state => {
     <div class="c-footer--container">
       <p class="c-footer--title">I made this ♡</p>
       <p class="c-footer--subtitle">I hope you like it</p>
+      <a href="mailto:camerondubas@gmail.com" class="c-footer--link">camerondubas@gmail.com</a>
     </div>
 
       <div class="c-offline ${state.offline && 'isActive'}">

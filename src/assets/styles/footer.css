@@ -22,6 +22,17 @@
     font-size: .9rem;
     text-align: center;
     color: rgba(0,0,0,0.4);
+    margin-bottom: 1rem;
+}
+
+.c-footer--link {
+    font-family: 'Bebas Neue', "Arial Narrow", Arial, sans-serif;
+    font-size: .7rem;
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+    text-decoration: underline;
+    font-style: italic;
+    display: block;
 }
 .c-footer:after {
     content:"";

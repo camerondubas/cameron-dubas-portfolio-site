@@ -40,7 +40,7 @@ export default {
 
       <div class="c-container__wrapper">
         <section class="c-container">
-          ${state.projects.map(p => p.homepage && project(p, actions))}
+          ${state.projects.map((p, idx) => p.homepage && html`<div key="home-${idx}">${project(p, actions)}</div>`)}
         </section>
       </div>
 

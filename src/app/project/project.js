@@ -2,7 +2,7 @@ import {h} from "hyperapp";
 import hyperx from "hyperx";
 const html = hyperx(h);
 
-import projecElem from './projectListItem.element';
+import project from './projectListItem.element';
 import footer from '../home/footer.element';
 import nav from '../home/nav.element';
 
@@ -21,7 +21,7 @@ export default {
 
         <div class="c-container__wrapper">
           <section class="c-container">
-            ${model.projects.map(p => projecElem(p, actions))}
+            ${model.projects.map((p, idx) => html`<div key="project-${idx}">${project(p, actions)}</div>`)}
           </section>
         </div>
 
